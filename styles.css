@@ -459,7 +459,7 @@ noscript {
   .story-panel::after,
   .panel-about::after,
   .panel-contact::after {
-    background: linear-gradient(180deg, rgb(16 15 14 / 20%) 0%, rgb(16 15 14 / 38%) 28%, #161513 52%, #161513 100%);
+    background: linear-gradient(180deg, rgb(16 15 14 / 20%) 0%, rgb(16 15 14 / 48%) 30%, rgb(16 15 14 / 88%) 58%, #161513 70%, #161513 100%);
   }
 
   .panel-photo,
