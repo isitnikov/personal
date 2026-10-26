@@ -459,11 +459,24 @@ noscript {
   .story-panel::after,
   .panel-about::after,
   .panel-contact::after {
-    background: linear-gradient(0deg, rgb(16 15 14 / 89%) 0%, rgb(16 15 14 / 58%) 54%, rgb(16 15 14 / 20%) 100%);
+    background: linear-gradient(180deg, rgb(16 15 14 / 20%) 0%, rgb(16 15 14 / 38%) 28%, #161513 52%, #161513 100%);
+  }
+
+  .panel-photo,
+  .not-found-photo {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transform: none;
   }
 
   .panel-photo {
-    background-position: 58% center;
+    inset: var(--header-height) 0 auto;
+    height: 56.25vw;
+  }
+
+  .story-panel.is-active .panel-photo {
+    transform: none;
   }
 
   .panel-copy,
